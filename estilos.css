@@ -112,3 +112,7 @@ body{
     justify-content: center;
     
 }
+
+.imagenmenu:hover{
+    transform: scale(1.4);
+}
