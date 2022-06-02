@@ -20,12 +20,6 @@ body{
     margin-bottom: 70px;
 }
 
-.foter{
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
 .todo{
     width: 110px;
     width: 70%;
@@ -79,8 +73,8 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "header" 
-                        "contenido"
-                        "footer";
+    "contenido"
+    "footer";
 }
 
 .conteiner .header{
@@ -95,11 +89,6 @@ body{
     grid-area: footer;
 }
 
-.footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-}
 
 .nav{
     display: flex;
@@ -115,4 +104,28 @@ body{
 
 .imagenmenu:hover{
     transform: scale(1.4);
+}
+
+.imagengaleria:hover{
+    transform: scale(1.06);
+}
+
+.imagen-index{
+    margin-bottom: 50px ;
+    margin-left: 130px;
+    
+}
+
+.foter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
 }
