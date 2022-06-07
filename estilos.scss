@@ -5,7 +5,9 @@
 }
 
 $color1:#00FFA5;
-$color2:#A500FF; 
+$color2:orange; 
+$color3:black; 
+$color4:white; 
 
 .texto-index{
     text-align: center;
@@ -21,7 +23,7 @@ $color2:#A500FF;
 
 
 body{
-    background-color: orange;
+    background-color: $color2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -133,15 +135,15 @@ body{
 }
 
 .foter{
-    background-color: black;
-    color: white;
+    background-color: $color3;
+    color: $color4;
     text-align: center;
     height: 150px;
 }
 
 .footer{
-    background-color: black;
-    color: white;
+    background-color: $color3;
+    color: $color4;
     text-align: center;
     height: 150px;
 }
